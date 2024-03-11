@@ -15,6 +15,7 @@
 		18B1CDDA2A4B383A005A2B57 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDD92A4B383A005A2B57 /* Tab.swift */; };
 		18B1CDDD2A4B3998005A2B57 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDDC2A4B3998005A2B57 /* AppData.swift */; };
 		18B1CDE62A4B3B67005A2B57 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1CDE52A4B3B67005A2B57 /* HomeView.swift */; };
+		BC0C58A72B9E407900BFB654 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C58A62B9E407900BFB654 /* DeepLinkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		18B1CDD92A4B383A005A2B57 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		18B1CDDC2A4B3998005A2B57 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		18B1CDE52A4B3B67005A2B57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC0C58A62B9E407900BFB654 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				18B1CDD92A4B383A005A2B57 /* Tab.swift */,
+				BC0C58A62B9E407900BFB654 /* DeepLinkManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				18B1CDD72A4B1A41005A2B57 /* PromoView.swift in Sources */,
 				18B1CDCA2A4A2703005A2B57 /* ContentView.swift in Sources */,
 				18B1CDC82A4A2703005A2B57 /* DeepLinkingApp.swift in Sources */,
+				BC0C58A72B9E407900BFB654 /* DeepLinkManager.swift in Sources */,
 				18B1CDDA2A4B383A005A2B57 /* Tab.swift in Sources */,
 				18B1CDDD2A4B3998005A2B57 /* AppData.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinking/Preview Content\"";
+				DEVELOPMENT_TEAM = PW48G2RABM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeepLinking/Info.plist;
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLinking/Preview Content\"";
+				DEVELOPMENT_TEAM = PW48G2RABM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeepLinking/Info.plist;
@@ -338,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

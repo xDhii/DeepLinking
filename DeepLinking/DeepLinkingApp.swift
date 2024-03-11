@@ -16,6 +16,10 @@ struct DeepLinkingApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(appData)
+                .onOpenURL(perform: { url in
+                    let deepLinkManager = DeepLinkManager()
+                    deepLinkManager.handleDeepLink(url: url, appData: appData)
+                })
         }
     }
 }
